@@ -1,4 +1,4 @@
-# AULAS-PYTHON
+
 Seja bem vindo ao curso de pythom, neste módulo aprenderemos os principais conceitos e aplicações da linguagem, de uma maneira rápida e direta.
 A linguagem python é uma das mais indicadas para quem está começando no mundo da programação, por ser tratar de uma linguagem com uma sintaxe direta,
 clara e objetiva, tornando-a uma importante ferramenta de apoio para iniciantes e também para programadores em geral.
