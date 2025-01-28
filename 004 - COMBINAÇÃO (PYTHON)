@@ -1,0 +1,15 @@
+#Considere, por exemplo, que dos cinco funcionários A, B, C, D e E de uma empresa do setor de Tecnologia da Informação,
+# três serão promovidos. Queremos determinar todas as combinações desses cinco funcionários, tomados dois a dois.
+
+from itertools import combinations
+
+def funcionarios_promovidos(lista,promocao):
+    return combinations (lista,promocao)
+
+
+
+lista = ['A','B','C','D','E']
+promocao = 3
+resultado = funcionarios_promovidos(lista,promocao)
+for combinacao in funcionarios_promovidos(lista,promocao):
+    print(combinacao)
