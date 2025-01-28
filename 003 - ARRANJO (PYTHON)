@@ -1,0 +1,14 @@
+#Para ilustrar esse conceito, considere o conjunto A={ 1, 2, 3, 4 }.
+# Vamos determinar o número de arranjos desses quatro elementos ( n = 4 ) tomados dois a dois ( p = 2 ) .
+
+import math
+
+def arranjo(n,p):
+    return math.factorial(n) // math.factorial(n-p)
+
+
+n = 4
+p = 2
+
+resultado = arranjo(n,p)
+print(resultado)
