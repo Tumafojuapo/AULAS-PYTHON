@@ -1,0 +1,10 @@
+# ATIVIDADE COM LISTAS => quantas listas de comprimento dois, de elementos distintos, é possível formar a partir da ordenação de três objetos arbitrários a, b e c ?
+
+def retorna_lista(lista):
+     return [[x,y] for x in lista for  y in lista if x!=y]
+
+
+
+lista=["a","b","c"]
+resultado = retorna_lista(lista)
+print(resultado)
