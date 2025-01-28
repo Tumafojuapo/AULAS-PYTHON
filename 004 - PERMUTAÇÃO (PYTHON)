@@ -1,0 +1,14 @@
+#Considere, por exemplo, o problema de se determinar de quantas maneiras seis pessoas A, B, C, D, E e F podem
+# ser dispostas em uma fila indiana. Cada maneira de compor a fila é uma permutação das seis pessoas,
+#pois qualquer fila obtida é uma sequência ordenada na qual comparecem sempre as seis pessoas.
+
+import math
+
+def permutacao(p):
+    return  math.factorial(p)
+
+
+p = 6
+
+resultado = permutacao(p)
+print(f'O número de maneiras de dispor 6 pessoas em fila é: {resultado}')
